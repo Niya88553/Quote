@@ -99,6 +99,14 @@ body{
     margin-right: 10px;
 
 }
+.quote-box button:hover {
+    background-color: rgb(57, 141, 231);
+     
+}
+
+.quote-box button:active{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) ;
+}
 
 .quote-box button:nth-child(2){
     background: transparent;
