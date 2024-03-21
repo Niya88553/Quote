@@ -12,7 +12,7 @@
         <blockquote id="quote">Loading...</blockquote>
         <span id="author">Loading...</span>
         <div>
-            <button>New Quote</button>
+            <button id="new-quote">New Quote</button>
             <button onclick="tweet()"><img src="tweet.png" >Tweet</button>
         </div>
 
@@ -30,7 +30,10 @@
         
 
     }
-
+     // while clicking on new quote it should reset a new quote 
+     newQuote.addEventListener('click' , ()=> {
+        getquote(api_url);
+    })
     getquote(api_url);
 
     function tweet(){
